@@ -1,0 +1,539 @@
+$maincolor:#ffc107;
+$mainfont: 'Alegreya', serif;
+$pfont: 'BioRhyme';
+$nfont:'Tahoma';
+
+* {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -o-box-sizing: border-box;
+     box-sizing: border-box;
+
+ }
+
+
+ul{
+   list-style: none;
+    margin: 0 !important;
+    padding: 0;
+}
+.first-sec{
+    text-transform: capitalize;
+    .navbar-toggler{
+    display: none;
+}
+.brand{
+    display: flex;
+    margin-top: 8px;
+    h2{
+        font-size: 34px;
+        font-weight: bold;
+        font-family: $mainfont;
+    }
+    i{
+        margin-top: -6px;
+        margin-left: 15px;
+        color: $maincolor;
+    }
+}
+.navbar.collapse{
+  display: flex;
+   align-items: center;  
+}
+.navbar-toggler{
+    
+    margin-left: auto;
+    margin-right: 10px;
+    i{
+       color: #89928f; 
+    }
+}
+.navbtns{
+   display: flex;
+   align-items: center;
+    li{
+        margin: 0 5px;
+    }
+}
+
+}
+// start home 
+.home{
+    position: relative;
+    height: 80vh;
+    .bg{
+        position: relative;
+        float: right;
+        background: url("../images/hotel-1.jpg");
+        width: 80%;
+        height: 80vh;
+        .overlay{
+            height: 100%;
+            width: 100%;
+            background-color: rgba(50, 180, 180, .4);
+        }
+    }
+    .search{
+        position: absolute;
+        top: 80px;
+        width: 480px;
+        h2{
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        } 
+        .formsearch{
+            input{
+                width: 80%;
+                border: none;
+                margin: 0 !important;
+                border-radius: 0;
+                
+            }
+            input:focus{
+                    outline: none;
+                    box-shadow: none;
+                    border: none;
+                }
+            span{
+                margin: 0;
+                border-radius: 0;
+                padding: 7px 22px ;
+                border: none;
+
+            }   
+            span:hover{
+                background-color:$maincolor;
+                border: none;
+            } 
+        }   
+    }
+    .call{
+        display: flex;
+        width: 40%;
+        height: 40px;
+        position: absolute;
+        background-color:$maincolor ;
+        bottom: 0;
+        right: 0;
+        .phone, .location{
+            font-weight: bold;
+            flex: auto;
+            padding: 10px;
+            i{
+                color: white;
+            }
+        }
+    }
+}
+// end home
+//start stats
+.stats{
+    margin-top: 60px;
+    .company-stats{
+        padding-right: 40px;
+        color: #121212;
+        font-family: $nfont;
+        h2{
+            font-weight: bold;
+            width: 40%;
+            margin-bottom: 30px;
+            font-size: 30px;
+            font-family: $nfont;
+        }
+        p{
+            font-size:14px;
+        }
+    }
+    .statistics{
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            .col-6{
+                padding-left: 0;
+                padding-right: 0;
+            }
+        .state{
+           width: 90%;
+    height: 90%;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+         h3{
+             padding-top: 30%;
+             font-weight: bold;
+             color: $maincolor;
+             font-family: $mainfont;
+         }
+         p{
+             font-family: $pfont;
+             letter-spacing: -1px;
+         }
+        }
+    }
+}
+//end stats
+//start houses
+.houses{
+    background-color: #f3f3f3;
+    margin-top: 40px;
+    h2{
+        padding-top: 40px;
+        margin-bottom: 40px;
+        font-size: 32px;
+        width: 35%;
+        font-family: $pfont;
+    }
+    .samples{
+        .card{
+            width: 302px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            img{
+                width: 300px;
+                height: 350px;
+            }
+            .card-body{
+               h3{
+                   font-size: 15px;
+                   font-family: $nfont;
+                   font-weight: bold;
+               }
+               .h-details{
+                   display: flex;
+                   justify-content: space-between;
+                   .cost{
+                       color: $maincolor;
+                       font-weight: bold;
+                   }
+                   .beds span:first-of-type{
+                       padding-right: 15px;
+                   }
+                   .beds i:last-of-type{
+                     padding-left: 10px;
+                   }
+               }
+            }
+        }
+    }
+    .all{
+     padding-bottom: 60px;
+     .search{
+        
+        
+       button{
+           
+                border-radius: 0;
+                padding: 14px 30px;
+                border: none;
+       }
+        .formsearch{
+           display: inline-block;
+            input{
+                width: 70%;
+                border: none;
+                margin: 0 !important;
+                border-radius: 0;
+                height: calc(1.5em + .75rem + 16px);
+                
+            }
+            input:focus{
+                    outline: none;
+                    box-shadow: none;
+                    border: none;
+                }
+            span{
+                margin-left: -4px;
+                border-radius: 0;
+                padding: 14px 30px;
+                border: none;
+
+            }   
+            span:hover{
+                background-color:$maincolor;
+                border: none;
+            } 
+        }   
+}
+}}
+// end houses
+//start works
+.works{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    h2{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-family: $nfont;
+    }
+    p{
+        width: 40%;
+        margin-bottom: 30px;
+        font-family: $pfont;
+    }
+    .row {
+        .card{
+            transition: all ease-in-out .3s;
+            color: #100c44;
+            position: relative;
+            overflow: hidden;
+           box-shadow: 6px 8px 20px -2px #222;
+            .card-body{
+                h2{
+                    font-size: 120px;
+                    position: absolute;
+                    top: -59px;
+                    left: -28px;
+                }
+                h4{
+                    margin-top: 90px;
+                    font-family: $nfont;
+                    font-weight: bold;
+
+                }
+                p{
+                    width: 100%;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                }
+                button{
+                     transition: all ease-in-out .3s;
+                    color: #100c44;
+                    background-color: white;
+                    border: none;
+                    border-bottom: 1px solid#100c44;
+                }
+            }
+            &:hover {
+            color: white;
+            background-color: $maincolor;
+        } &:hover button{
+             color: white;
+                    background-color: $maincolor;
+                    border: none;
+                    border-bottom: 1px solid#fff;
+        }
+        }
+        
+    }
+}
+//end works
+//start service
+.service{
+    margin-top: 40px;
+    h2{
+        font-weight: bold;
+        font-size: 32px;
+        font-family: $nfont;
+    }
+    p{
+        width: 40%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .row{
+        .ourservice{
+            .phase{
+                h4{
+                    font-size: 24px;
+                    font-family: $nfont;
+                    font-weight: bold;
+                }
+                p{
+                    width: 100%;
+                    font-family: $pfont;
+
+                }
+            }
+        }
+    }
+}
+//end service
+//start agents
+.agents{
+    background-color: #f3f3f3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h2{
+        font-weight: bold;
+        font-size: 32px;
+        font-family: $nfont;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    p{
+        font-family: $pfont;
+        width: 40%;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .row{
+        .card{
+            .card-body{
+                padding-top: 0;
+                h3{
+                    font-weight: bold;
+                    margin-top: 0;
+
+                }
+                .h-details{
+                    display: flex;
+                    justify-content: space-between;
+                    .name{
+                        color: $maincolor;
+                        font-weight: bold;
+                        font-family: $pfont;
+                    }
+                    .beds{
+                        i{
+                            cursor: pointer;
+                            padding-left: 10px;
+                        }
+                        .fa-facebook:hover{
+                           color:#3b5998 ;
+                        }
+                        .fa-twitter:hover{
+                            color: #1da1f2;
+                        }
+                        .fa-instagram:hover{
+                            color: #f77737;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+//end agents
+//start rooms
+.rooms{
+    padding-bottom: 60px;
+    .room{
+        margin-top: 60px;
+        
+        .room-pic{
+           position: relative;
+           
+           .location{
+               position: absolute;
+               bottom: -16px;
+               left: 23%;
+               background-color: $maincolor;
+               padding: 8px 30px;
+               border-radius: 6px;
+               color: white;
+               font-family: $mainfont;
+               i{
+                   padding-right: 10px;
+               }
+           }
+        }
+        .info{
+            margin-top: 70px;
+            h2{
+                margin-bottom: 40px;
+                font-family: $nfont;
+                font-weight: bold;
+                font-size: 26px;
+
+            }
+            p{
+                padding-left: 50px;
+                width: 90%;
+                font-family: $pfont;
+            }
+        }
+    }
+}
+//end rooms
+/* start footer*/
+.footer {
+    background-color: #212121;
+    overflow: hidden;
+    h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        letter-spacing: 1.5px;
+        color:#8a8888;
+        font-size: 18px;
+    }
+    .col{
+    margin-top: 40px;
+    h2{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+        }
+    p{
+    color: #757575;
+    margin-right: 8%;
+        }
+        .contact {
+            i{
+    color: #E0E0E0;
+    padding: 5px 12px;
+    border: 1px solid #E0E0E0;
+    margin-right: 10px;
+    cursor: pointer;
+        }
+      .fa-facebook-f:hover{
+        color: #3b5998;
+        border: 1px solid #3b5998;
+      }  
+      .fa-twitter:hover{
+        color: #1da1f2;
+        border: 1px solid #1da1f2;
+      }  
+      .fa-google:hover{
+        color: #dd4b39;
+        border: 1px solid #dd4b39;
+      }  
+    }
+.col2 li{
+    color: #E0E0E0;
+    border: 1px solid #757575;
+    padding: 5px 12px;
+    float: left;
+    font-size: 12px;
+    margin: 5px 5px;
+
+        }
+        .recent{
+    overflow: hidden;
+    
+    img{
+        height: 70px;
+        width: 100px;
+float: left;
+padding: 0 10px 10px;
+cursor: pointer;
+        }
+        h3{
+            cursor: pointer;
+   margin: 3px 10px 10px;
+   color: #E0E0E0;
+   font-weight: normal;
+   font-size: 14px;
+        }
+        p{
+   margin: 0 10px;
+   color: #757575;
+   font-size: 10px;
+   
+        }
+        }
+        .blog li{
+    border-bottom: 1px solid #757575;
+    color: #757575;
+    padding: 10px 0;
+    cursor: pointer;
+    &:hover{
+        color:white;
+    }
+        }
+    }
+}
+/* end footer*/

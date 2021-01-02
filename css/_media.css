@@ -1,0 +1,283 @@
+/*large screens*/
+@media (min-width: 1200px) {
+  body {
+    background-color: white; 
+  }
+ }
+ /*medium screens*/
+@media (max-width: 1199px) {
+  li {
+    font-size: 12px; }
+  ul .btn{
+    font-size: 12px;
+  }
+  .home .search h2{
+    font-size: 46px;
+  }
+  .call .phone,
+  .call .location{
+    font-size: 12px;
+  }
+  .works .row .card .card-body h4 {
+    font-size: 20px;
+  }
+  .service .ser-bg img{
+    width: 100%;
+  }
+  .rooms .room .room-pic .location{
+    bottom: 3px;
+  }
+  
+  }
+
+  /*small screens*/
+@media (max-width: 991px) {
+  .nav-link{
+    padding: 6px 8px;
+  }
+li {
+    font-size: 10px; }
+  ul .btn{
+        font-size: 12px;
+    padding: 6px 6px;
+  }
+  .navbtns.col-4{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .home .search h2{
+    font-size: 46px;
+  }
+  .home .call{
+    height: 30px;
+  }
+  .home .call .phone,
+  .home .call .location{
+    font-size: 10px;
+    padding: 8px;
+  }  
+  .first-sec .brand h2{
+    font-size: 26px;
+  }
+  .first-sec .brand i{
+    margin-left: 10;
+  }
+  .stats .statistics .state h3 {
+    padding-top: 45%;
+  }
+  .houses h2{
+    width: 60%;
+  }
+  .works p{
+    width: 70%;
+  }
+  .service p{
+    width: 60%;
+  }
+  .service .ser-bg img{
+    width: 100%;
+  }
+  .service .row .ourservice .phase h4 {
+    font-size: 20px;
+  }
+  .service .ourservice .phase p{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .rooms .room .room-pic .location{
+    bottom: -16px;
+  }
+  .agents p{
+    width: 70%;
+  } 
+  .agents .row .card .card-body .h-details .name{
+    font-size: 10px;
+  }
+  .agents .row .card .card-body h3{
+    font-size: 16px;
+  }
+  .agents .row .card .card-body .h-details .beds{
+    margin-top: -3px;
+  }
+  .agents .row .card .card-body .h-details .beds i{
+padding-left: 4px;
+  }
+  .rooms .room .room-pic img{
+    width: 100%;
+  }
+  .rooms .room .info h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .rooms .room .info p{
+    font-size: 12px;
+  }
+  .footer .col p{
+    font-size: 10px;
+  }
+  .footer .col .contact i{
+    font-size: 10px;
+  }
+  .footer .col .recent h3 {
+    letter-spacing: .5px;
+    font-size: 9px;
+  }
+}
+
+/*mobile screens*/
+@media (max-width: 767px) {
+  .navbar-toggler {
+    display: block !important; 
+  margin-top: 8px;}
+  .nav-link{
+   display: block;
+  }
+  .row .col-9{
+    text-align: right;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+  .col-8{
+    display: block;
+    max-width: 100%;
+  }
+  .nav.nav-pills{
+    display: block;
+  }
+li {
+    font-size: 14px; }
+  ul .btn{
+        font-size: 14px;
+    padding: 8px 10px;
+  }
+  .navbtns.col-4{
+    display: contents;
+    max-width: 100%;
+    
+  }
+  .home .search{
+    width: 60%;
+  }
+  .home .search .form-control{
+   
+        font-size: 12px;
+    padding: 3px;
+    height: 26px;
+  }
+  .home .search .formsearch input{
+    width: 70%;
+  }
+  .home .search .formsearch span{
+    padding: 1px 9px;
+  }
+  .home .search h2{
+    font-size: 30px;
+  }
+  .home .call{
+    height: 20px;
+    width: 70%;
+  }
+  .home .call .phone,
+  .home .call .location{
+    font-size: 10px;
+    padding: 4px;
+  }  
+  .stats .statistics .state{
+    height: 50%;
+  }
+  .stats .statistics .state h3{
+    padding-top: 20%;
+  }
+  .stats .statistics .state p{
+    padding-bottom: 20%;
+  }
+  .stats .company-stats h2{
+    width: 100%;
+  }
+.stats .company-stats p {
+  font-size: 12px;
+}
+.houses .samples .card{
+  width: 100%;
+}
+.houses .samples .card img{
+  width: 100%;
+}
+.houses .all .search button{
+  left: 40%;
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 14px 16px;
+}
+.works p{
+  width: 90%;
+}
+.works .row .card .card-body h4{
+  font-size: 15px;
+}
+.works .row .card .card-body p{
+  font-size: 12px;
+}
+.service .ser-bg img{
+  height:  80%;
+}
+.service .row .ourservice .phase p{
+  font-size: 10px;
+}
+.agents .house{
+  margin-top: 20px;
+}
+.rooms .room .room-pic .location {
+    bottom: 2px;
+    left: 20%;
+  }
+  .rooms .room .info {
+    margin-top: 20px;
+  }
+  .rooms .room .info p{
+    width: 100%;
+    font-size: 10px;
+  }
+  .footer .col .col2 li {
+    padding: 5px 7px;
+  }
+  .footer .col .recent img {
+    padding: 0 10px 0px;
+
+  }
+  .footer .col .recent h3{
+    margin: 0 10px 0px;
+  }
+  .footer .col .recent p{
+    margin-bottom:5px ;
+  }}
+  @media (max-width: 575px){
+.stats .statistics .state {
+  height: 80%; 
+}
+.houses h2 {
+  width: 80%;
+}
+.houses .all .search .formsearch{
+  display: flex;
+}
+.houses .all .search .row .col-12{
+  text-align: center;
+}
+.works .row .card{
+  margin-bottom: 20px;
+}
+.service .ser-bg img{
+  height: 95%;
+}
+.rooms .room .room-pic .location {
+    bottom: -16px;
+    left: 31%;}
+  }
+
+
+
+
+
+

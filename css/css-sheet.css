@@ -1,0 +1,473 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0; }
+
+.first-sec {
+  text-transform: capitalize; }
+
+.first-sec .navbar-toggler {
+  display: none; }
+
+.first-sec .brand {
+  display: flex;
+  margin-top: 8px; }
+
+.first-sec .brand h2 {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "Alegreya", serif; }
+
+.first-sec .brand i {
+  margin-top: -6px;
+  margin-left: 15px;
+  color: #ffc107; }
+
+.first-sec .navbar.collapse {
+  display: flex;
+  align-items: center; }
+
+.first-sec .navbar-toggler {
+  margin-left: auto;
+  margin-right: 10px; }
+
+.first-sec .navbar-toggler i {
+  color: #89928f; }
+
+.first-sec .navbtns {
+  display: flex;
+  align-items: center; }
+
+.first-sec .navbtns li {
+  margin: 0 5px; }
+
+.home {
+  position: relative;
+  height: 80vh; }
+
+.home .bg {
+  position: relative;
+  float: right;
+  background: url("../images/hotel-1.jpg");
+  width: 80%;
+  height: 80vh; }
+
+.home .bg .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(50, 180, 180, 0.4); }
+
+.home .search {
+  position: absolute;
+  top: 80px;
+  width: 480px; }
+
+.home .search h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px; }
+
+.home .search .formsearch input {
+  width: 80%;
+  border: none;
+  margin: 0 !important;
+  border-radius: 0; }
+
+.home .search .formsearch input:focus {
+  outline: none;
+  box-shadow: none;
+  border: none; }
+
+.home .search .formsearch span {
+  margin: 0;
+  border-radius: 0;
+  padding: 7px 22px;
+  border: none; }
+
+.home .search .formsearch span:hover {
+  background-color: #ffc107;
+  border: none; }
+
+.home .call {
+  display: flex;
+  width: 40%;
+  height: 40px;
+  position: absolute;
+  background-color: #ffc107;
+  bottom: 0;
+  right: 0; }
+
+.home .call .phone, .home .call .location {
+  font-weight: bold;
+  flex: auto;
+  padding: 10px; }
+
+.home .call .phone i, .home .call .location i {
+  color: white; }
+
+.stats {
+  margin-top: 60px; }
+
+.stats .company-stats {
+  padding-right: 40px;
+  color: #121212;
+  font-family: "Tahoma"; }
+
+.stats .company-stats h2 {
+  font-weight: bold;
+  width: 40%;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: "Tahoma"; }
+
+.stats .company-stats p {
+  font-size: 14px; }
+
+.stats .statistics {
+  display: flex;
+  align-items: stretch;
+  justify-content: center; }
+
+.stats .statistics .col-6 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.stats .statistics .state {
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f3f3f3;
+  border-radius: 10px; }
+
+.stats .statistics .state h3 {
+  padding-top: 30%;
+  font-weight: bold;
+  color: #ffc107;
+  font-family: "Alegreya", serif; }
+
+.stats .statistics .state p {
+  font-family: "BioRhyme";
+  letter-spacing: -1px; }
+
+.houses {
+  background-color: #f3f3f3;
+  margin-top: 40px; }
+
+.houses h2 {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  width: 35%;
+  font-family: "BioRhyme"; }
+
+.houses .samples .card {
+  width: 302px;
+  margin-bottom: 20px;
+  cursor: pointer; }
+
+.houses .samples .card img {
+  width: 300px;
+  height: 350px; }
+
+.houses .samples .card .card-body h3 {
+  font-size: 15px;
+  font-family: "Tahoma";
+  font-weight: bold; }
+
+.houses .samples .card .card-body .h-details {
+  display: flex;
+  justify-content: space-between; }
+
+.houses .samples .card .card-body .h-details .cost {
+  color: #ffc107;
+  font-weight: bold; }
+
+.houses .samples .card .card-body .h-details .beds span:first-of-type {
+  padding-right: 15px; }
+
+.houses .samples .card .card-body .h-details .beds i:last-of-type {
+  padding-left: 10px; }
+
+.houses .all {
+  padding-bottom: 60px; }
+
+.houses .all .search button {
+  border-radius: 0;
+  padding: 14px 30px;
+  border: none; }
+
+.houses .all .search .formsearch {
+  display: inline-block; }
+
+.houses .all .search .formsearch input {
+  width: 70%;
+  border: none;
+  margin: 0 !important;
+  border-radius: 0;
+  height: calc(1.5em + .75rem + 16px); }
+
+.houses .all .search .formsearch input:focus {
+  outline: none;
+  box-shadow: none;
+  border: none; }
+
+.houses .all .search .formsearch span {
+  margin-left: -4px;
+  border-radius: 0;
+  padding: 14px 30px;
+  border: none; }
+
+.houses .all .search .formsearch span:hover {
+  background-color: #ffc107;
+  border: none; }
+
+.works {
+  margin-top: 40px;
+  padding-bottom: 40px; }
+
+.works h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: "Tahoma"; }
+
+.works p {
+  width: 40%;
+  margin-bottom: 30px;
+  font-family: "BioRhyme"; }
+
+.works .row .card {
+  transition: all ease-in-out .3s;
+  color: #100c44;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 6px 8px 20px -2px #222; }
+
+.works .row .card .card-body h2 {
+  font-size: 120px;
+  position: absolute;
+  top: -59px;
+  left: -28px; }
+
+.works .row .card .card-body h4 {
+  margin-top: 90px;
+  font-family: "Tahoma";
+  font-weight: bold; }
+
+.works .row .card .card-body p {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+.works .row .card .card-body button {
+  transition: all ease-in-out .3s;
+  color: #100c44;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid #100c44; }
+
+.works .row .card:hover {
+  color: white;
+  background-color: #ffc107; }
+
+.works .row .card:hover button {
+  color: white;
+  background-color: #ffc107;
+  border: none;
+  border-bottom: 1px solid #fff; }
+
+.service {
+  margin-top: 40px; }
+
+.service h2 {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Tahoma"; }
+
+.service p {
+  width: 40%;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.service .row .ourservice .phase h4 {
+  font-size: 24px;
+  font-family: "Tahoma";
+  font-weight: bold; }
+
+.service .row .ourservice .phase p {
+  width: 100%;
+  font-family: "BioRhyme"; }
+
+.agents {
+  background-color: #f3f3f3;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.agents h2 {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Tahoma";
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.agents p {
+  font-family: "BioRhyme";
+  width: 40%;
+  font-size: 16px;
+  margin-bottom: 40px; }
+
+.agents .row .card .card-body {
+  padding-top: 0; }
+
+.agents .row .card .card-body h3 {
+  font-weight: bold;
+  margin-top: 0; }
+
+.agents .row .card .card-body .h-details {
+  display: flex;
+  justify-content: space-between; }
+
+.agents .row .card .card-body .h-details .name {
+  color: #ffc107;
+  font-weight: bold;
+  font-family: "BioRhyme"; }
+
+.agents .row .card .card-body .h-details .beds i {
+  cursor: pointer;
+  padding-left: 10px; }
+
+.agents .row .card .card-body .h-details .beds .fa-facebook:hover {
+  color: #3b5998; }
+
+.agents .row .card .card-body .h-details .beds .fa-twitter:hover {
+  color: #1da1f2; }
+
+.agents .row .card .card-body .h-details .beds .fa-instagram:hover {
+  color: #f77737; }
+
+.rooms {
+  padding-bottom: 60px; }
+
+.rooms .room {
+  margin-top: 60px; }
+
+.rooms .room .room-pic {
+  position: relative; }
+
+.rooms .room .room-pic .location {
+  position: absolute;
+  bottom: -16px;
+  left: 23%;
+  background-color: #ffc107;
+  padding: 8px 30px;
+  border-radius: 6px;
+  color: white;
+  font-family: "Alegreya", serif; }
+
+.rooms .room .room-pic .location i {
+  padding-right: 10px; }
+
+.rooms .room .info {
+  margin-top: 70px; }
+
+.rooms .room .info h2 {
+  margin-bottom: 40px;
+  font-family: "Tahoma";
+  font-weight: bold;
+  font-size: 26px; }
+
+.rooms .room .info p {
+  padding-left: 50px;
+  width: 90%;
+  font-family: "BioRhyme"; }
+
+/* start footer*/
+.footer {
+  background-color: #212121;
+  overflow: hidden; }
+
+.footer h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  color: #8a8888;
+  font-size: 18px; }
+
+.footer .col {
+  margin-top: 40px; }
+
+.footer .col h2 {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px; }
+
+.footer .col p {
+  color: #757575;
+  margin-right: 8%; }
+
+.footer .col .contact i {
+  color: #E0E0E0;
+  padding: 5px 12px;
+  border: 1px solid #E0E0E0;
+  margin-right: 10px;
+  cursor: pointer; }
+
+.footer .col .contact .fa-facebook-f:hover {
+  color: #3b5998;
+  border: 1px solid #3b5998; }
+
+.footer .col .contact .fa-twitter:hover {
+  color: #1da1f2;
+  border: 1px solid #1da1f2; }
+
+.footer .col .contact .fa-google:hover {
+  color: #dd4b39;
+  border: 1px solid #dd4b39; }
+
+.footer .col .col2 li {
+  color: #E0E0E0;
+  border: 1px solid #757575;
+  padding: 5px 12px;
+  float: left;
+  font-size: 12px;
+  margin: 5px 5px; }
+
+.footer .col .recent {
+  overflow: hidden; }
+
+.footer .col .recent img {
+  height: 70px;
+  width: 100px;
+  float: left;
+  padding: 0 10px 10px;
+  cursor: pointer; }
+
+.footer .col .recent h3 {
+  cursor: pointer;
+  margin: 3px 10px 10px;
+  color: #E0E0E0;
+  font-weight: normal;
+  font-size: 14px; }
+
+.footer .col .recent p {
+  margin: 0 10px;
+  color: #757575;
+  font-size: 10px; }
+
+.footer .col .blog li {
+  border-bottom: 1px solid #757575;
+  color: #757575;
+  padding: 10px 0;
+  cursor: pointer; }
+
+.footer .col .blog li:hover {
+  color: white; }
+
+/* end footer*/
