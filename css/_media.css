@@ -11,12 +11,15 @@
   ul .btn{
     font-size: 12px;
   }
+  .stats .company-stats h2{
+    width: 50%;
+  }
   .home .search h2{
     font-size: 46px;
   }
   .call .phone,
   .call .location{
-    font-size: 12px;
+    font-size: 14px;
   }
   .works .row .card .card-body h4 {
     font-size: 20px;
@@ -24,8 +27,15 @@
   .service .ser-bg img{
     width: 100%;
   }
-  .rooms .room .room-pic .location{
-    bottom: 3px;
+  
+  .houses .all .search .formsearch i{
+    top: 25%;
+  }
+  .houses .all .search button {
+    padding: 2px 30px;
+  }
+  .agents .row .card .card-body .h-details .beds i{
+    padding-left: 3px;
   }
   
   }
@@ -49,13 +59,16 @@ li {
     font-size: 46px;
   }
   .home .call{
-    height: 30px;
+    height: 40px;
   }
   .home .call .phone,
   .home .call .location{
-    font-size: 10px;
-    padding: 8px;
+    font-size: 12px;
+    
   }  
+  .stats .company-stats h2{
+    width: 70%;
+  }
   .first-sec .brand h2{
     font-size: 26px;
   }
@@ -101,7 +114,8 @@ li {
     margin-top: -3px;
   }
   .agents .row .card .card-body .h-details .beds i{
-padding-left: 4px;
+    padding-left: 3px;
+    font-size: 14px;
   }
   .rooms .room .room-pic img{
     width: 100%;
@@ -113,16 +127,17 @@ padding-left: 4px;
   .rooms .room .info p{
     font-size: 12px;
   }
-  .footer .col p{
-    font-size: 10px;
+  .footer .topsec h2 {
+    font-size: 25px;
   }
-  .footer .col .contact i{
-    font-size: 10px;
+  .footer .topsec .srchform i{
+    top: 36%;
+   
   }
-  .footer .col .recent h3 {
-    letter-spacing: .5px;
-    font-size: 9px;
+  .footer .topsec .srchform input{
+     font-size: 12px;
   }
+ 
 }
 
 /*mobile screens*/
@@ -159,6 +174,9 @@ li {
   .home .search{
     width: 60%;
   }
+  .home .scroll{
+    bottom: -70%;
+  }
   .home .search .form-control{
    
         font-size: 12px;
@@ -175,13 +193,13 @@ li {
     font-size: 30px;
   }
   .home .call{
-    height: 20px;
+    height: 30px;
     width: 70%;
   }
   .home .call .phone,
   .home .call .location{
-    font-size: 10px;
-    padding: 4px;
+    font-size: 12px;
+    
   }  
   .stats .statistics .state{
     height: 50%;
@@ -210,8 +228,14 @@ li {
   font-size: 12px;
   padding: 14px 16px;
 }
+.houses .all .search .formsearch i{
+  top: 35%;
+}
 .works p{
   width: 90%;
+}
+.works .col-sm-4 {
+  padding-right: 0;
 }
 .works .row .card .card-body h4{
   font-size: 15px;
@@ -229,7 +253,7 @@ li {
   margin-top: 20px;
 }
 .rooms .room .room-pic .location {
-    bottom: 2px;
+    
     left: 20%;
   }
   .rooms .room .info {
@@ -239,25 +263,28 @@ li {
     width: 100%;
     font-size: 10px;
   }
-  .footer .col .col2 li {
-    padding: 5px 7px;
+  .footer .topsec h2{
+    font-size: 20px;
   }
-  .footer .col .recent img {
-    padding: 0 10px 0px;
-
+  .footer .botsec h6,.footer .botsec h4{
+    font-size: 9px;
   }
-  .footer .col .recent h3{
-    margin: 0 10px 0px;
+  .footer .topsec .srchform input{
+    font-size: 10px;
   }
-  .footer .col .recent p{
-    margin-bottom:5px ;
-  }}
+ }
   @media (max-width: 575px){
+    .home .call{
+      width: 100%;
+    }
 .stats .statistics .state {
   height: 80%; 
 }
+.works .col-sm-4 {
+  padding-right: 15px;
+}
 .houses h2 {
-  width: 80%;
+  width: 90%;
 }
 .houses .all .search .formsearch{
   display: flex;
@@ -273,9 +300,14 @@ li {
 }
 .rooms .room .room-pic .location {
     bottom: -16px;
-    left: 31%;}
+    left: 31%;
   }
-
+ .rooms .showmore{
+               margin-left: 31%;
+            }
+  }
+ 
+          
 
 
 
